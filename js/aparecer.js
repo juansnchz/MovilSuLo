@@ -7,6 +7,7 @@ $(document).ready(function(){
  
 $('.vehiculo').click(function(){
     $(this).toggleClass("select");
+  return false;
 });  
   
   
