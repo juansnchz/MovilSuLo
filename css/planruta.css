@@ -45,7 +45,12 @@ td a {
   font-size: 0.7rem;
 }
 
-#paint{
+#aparecer{
   
   display: none;
+}
+
+.select{
+  
+  border: 5px solid green;
 }
