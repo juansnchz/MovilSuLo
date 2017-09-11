@@ -11,6 +11,7 @@
 </head>
 <body>
 <div class="container-fluid" style="height: 100vh;">
+  
   <div class="d-flex justify-content-center align-items-center"  style="height: 24%">
     
     <div class="mb-0 inicio d-flex justify-content-center align-items-center" >
@@ -25,13 +26,407 @@
       </a>
     </div> <!-- Planes de ruta--> 
     
-  </div>
+  </div> <!--Div  de los botones -->
   
 <!--Animación -->  
-<div id="bm"></div> 
+  <div id="bm" class="mb-3" ></div> 
 <!------------------------------------------------>   
   
+  <h3 class="text-center bg-inverse text-white p-2">Solicitud de recogidas</h3>
+  
+    <div class="card">
+      <div class="card-body p-3">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="text-center"># Cajas</th>
+              <th class="text-center">Hora recolección</th>
+              <th class="text-center">Dirección</th>
+            </tr>
+          </thead>
 
+          <tbody>
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">1</a></td>
+              <td>17:00</td>
+              <td><a href="https://map.what3words.com/tazón.hadas.tierras" target="_blank">tazón.hadas.tierras</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">140</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">45</a></td>
+              <td>15:15</td>
+              <td><a href="https://map.what3words.com/ganó.trofeo.eviten" target="_blank">ganó.trofeo.eviten</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">6</a></td>
+              <td>15:00</td>
+              <td><a href="https://map.what3words.com/horno.dormía.lima" target="_blank">horno.dormía.lima</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">10</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">1</a></td>
+              <td>17:00</td>
+              <td><a href="https://map.what3words.com/tazón.hadas.tierras" target="_blank">tazón.hadas.tierras</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">140</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">45</a></td>
+              <td>15:15</td>
+              <td><a href="https://map.what3words.com/ganó.trofeo.eviten" target="_blank">ganó.trofeo.eviten</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">6</a></td>
+              <td>15:00</td>
+              <td><a href="https://map.what3words.com/horno.dormía.lima" target="_blank">horno.dormía.lima</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">10</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">1</a></td>
+              <td>17:00</td>
+              <td><a href="https://map.what3words.com/tazón.hadas.tierras" target="_blank">tazón.hadas.tierras</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">140</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">45</a></td>
+              <td>15:15</td>
+              <td><a href="https://map.what3words.com/ganó.trofeo.eviten" target="_blank">ganó.trofeo.eviten</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">6</a></td>
+              <td>15:00</td>
+              <td><a href="https://map.what3words.com/horno.dormía.lima" target="_blank">horno.dormía.lima</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">10</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">1</a></td>
+              <td>17:00</td>
+              <td><a href="https://map.what3words.com/tazón.hadas.tierras" target="_blank">tazón.hadas.tierras</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">140</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">45</a></td>
+              <td>15:15</td>
+              <td><a href="https://map.what3words.com/ganó.trofeo.eviten" target="_blank">ganó.trofeo.eviten</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">6</a></td>
+              <td>15:00</td>
+              <td><a href="https://map.what3words.com/horno.dormía.lima" target="_blank">horno.dormía.lima</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">10</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">1</a></td>
+              <td>17:00</td>
+              <td><a href="https://map.what3words.com/tazón.hadas.tierras" target="_blank">tazón.hadas.tierras</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">140</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+            
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">45</a></td>
+              <td>15:15</td>
+              <td><a href="https://map.what3words.com/ganó.trofeo.eviten" target="_blank">ganó.trofeo.eviten</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">6</a></td>
+              <td>15:00</td>
+              <td><a href="https://map.what3words.com/horno.dormía.lima" target="_blank">horno.dormía.lima</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">10</a></td>
+              <td>17:15</td>
+              <td><a href="https://map.what3words.com/amaba.rige.rienda" target="_blank">amaba.rige.rienda</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">5</a></td>
+              <td>17:30</td>
+              <td><a href="https://map.what3words.com/tachar.unir.abeja" target="_blank">tachar.unir.abeja</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">12</a></td>
+              <td>16:31</td>
+              <td><a href="https://map.what3words.com/aulló.amigo.primo" target="_blank">aulló.amigo.primo</a></td>
+            </tr>
+            
+            <tr class="text-center">
+              <td scope="row"><a href="#modalrecogida" data-toggle="modal">3</a></td>
+              <td>16:20</td>
+              <td><a href="https://map.what3words.com/cuesta.vinos.rogó" target="_blank">cuesta.vinos.rogó</a></td>
+            </tr>
+
+
+
+          </tbody>
+        </table>
+      </div> <!--Card body -->
+  </div> <!--Card -->
+  
+  <!-- Modal Recogida -->
+<div class="modal fade" id="modalrecogida" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: lightcyan">
+        <h5 class="modal-title" id="exampleModalLabel">Detalles de recolección  f06b6ff</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> <!--Modal header -->
+      <div class="modal-body">
+        <dl class="text-center">
+        <dt>Cliente solicitante</dt>
+        <dd>Industrias Patojito</dd>
+          <dt>Tipo de envío</dt>
+        <dd>Cajas plegadizas</dd>
+          <dt>Cantidad</dt>
+        <dd>12</dd>
+          <dt>Contenido</dt>
+        <dd>Líquidos de limpieza</dd>
+          <dt>Tipo de servicio</dt>
+        <dd>Premium</dd>
+          <dt>Hora de ingreso al sistema</dt>
+        <dd>2017-09-11 09:39:37</dd>
+          <dt>Hora de recolección solicitada</dt>
+        <dd>2017-09-11 16:31</dd>
+          <dt>Notas</dt>
+        <dd class="px-4">El cliente no entregó ayer porque no había autorización. Hoy cliente confirma que ya está autorizado</dd>
+        </dl>
+      </div> <!--Modal body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+       
+      </div> <!-- Modal footer -->
+    </div> <!-- Modal content -->
+  </div> <!-- Modal dialog -->
+</div> <!-- Modal -->
+  
+  
 </div> <!--Body content container -->
   
 <script src="js/jquery.slim.min.js"></script>
