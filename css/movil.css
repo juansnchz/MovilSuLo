@@ -40,3 +40,7 @@ h5{
   box-shadow: 1px 1px 1px 1px gray;
   
 }
+
+td a {
+  font-size: 0.8rem;
+}
