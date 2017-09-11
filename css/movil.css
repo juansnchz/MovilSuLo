@@ -1,0 +1,70 @@
+
+h6{
+  font-size: 0.7rem;
+  
+}
+
+h5{
+  font-size: 1rem;
+  padding-bottom: 0.1rem;
+  
+}
+
+.item{
+  
+    background-color: white;
+    border: 0.08rem solid gray;
+    border-radius: 8px;
+   box-shadow: 1px 1px 1px 1px gray;
+    margin: 3%;
+    height: 20%;
+    width: 40%;
+    text-align: center;
+    overflow: hidden;
+
+    
+ }  
+
+
+.inicio{
+  
+    background-color: white;
+    border: 0.08rem solid gray;
+    border-radius: 8px;
+   box-shadow: 1px 1px 1px 1px gray;
+    margin: 3%;
+  width: 40%;
+  height: 40%;
+  
+    text-align: center;
+    overflow: hidden;
+
+    
+ }  
+
+.item a{
+  
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.barra{
+  background-color: white;
+    border: 1px solid black;
+    
+    width: 100%;
+    height: 1%;
+    margin-top: -1%;
+}
+
+
+.fondoimg{
+  width:100%;
+  background-image: url(../assets/prueba.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+
