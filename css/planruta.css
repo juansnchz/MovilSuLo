@@ -44,3 +44,8 @@ h5{
 td a {
   font-size: 0.7rem;
 }
+
+#paint{
+  
+  display: none;
+}
